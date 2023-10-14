@@ -1,0 +1,12 @@
+controller:
+  adminUsername: admin
+  adminPassword: admin
+
+  JCasC:
+    defaultConfig: true
+    configScripts:
+      welcome-message: |
+        jenkins:
+          systemMessage: Welcome to Kube-Jenkins!
+
+  serviceType: LoadBalancer
